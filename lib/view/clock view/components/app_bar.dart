@@ -13,11 +13,12 @@ class ClockAppBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
+          //
           SvgPicture.asset('assets/icons/Settings.svg'),
           CircularSoftButton(
             radius: 20,
-            icon: const Icon(Icons.settings,color: Colors.pink,),
-          )
+            icon: const Icon(Icons.settings, color: Colors.pink),
+          ),
         ],
       ),
     );
